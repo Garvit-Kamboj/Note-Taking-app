@@ -1,0 +1,134 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+}
+@media only screen and (min-width:600px){
+section.container{
+    display:flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+div#button-container{
+    display :flex;
+    position : relative;
+    top : 100px;
+    justify-Content : space-evenly;
+}
+
+
+nav.bg-left{
+    width: 20%;
+    background-color: aquamarine;
+}
+
+div.bg-right{
+    width: 45%;
+    background-color:aqua ;
+}
+
+aside.theme{
+    width: 20%;
+    background-color: aquamarine;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+div#output{
+    position: absolute;
+    top:110px;
+    font-size: 20px;
+    width: 20%;
+
+}
+
+
+textarea{
+    position : relative;
+    top : 100px;
+    width : 99.4%;
+    height : 350px;
+    font-Size : 25px;
+    resize : none;
+    background-Color : beige;
+    color : blue;
+}
+
+button{
+    background-color: #48f0c6;
+    font-size: 20px;
+    font-family: normal;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+}
+
+p{
+    text-align: center;
+}
+
+
+button:hover, button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgb(34, 32, 32);
+    
+}
+
+button#theme{
+    font-size: 20px;
+    font-family: normal;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    /* position: absolute;
+    right: 100px; */
+    
+}
+
+button#notes{
+    font-size: 20px;
+    font-family: normal;
+    font-style: italic;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+textarea{
+    width: 99.4%;
+    height: 350px;
+    background-color: beige;
+    resize: none;
+    font-size: 25px;
+}
+
+div#button-container{
+    width: 100px;
+    margin: 10px auto 10px auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+button#save, button#cancel{
+    font-family: normal;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+nav.bg-left, aside.theme{
+    background-color: aquamarine;
+}
+
+div.bg-right{
+    background-color: aqua;   
+}
+
+
